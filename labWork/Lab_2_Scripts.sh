@@ -24,6 +24,6 @@ grep '[A-Za-z0-9._-]@[^\geocities.com]' regex_practice.txt > email_results.txt
 
 
 # command line inputs
-echo "grep commands: "
-grep -n ^$regEx$ regex_practice.txt > command_results.txt
+echo "The command line argument is: $1"
+grep -n $1 regex_practice.txt > command_results.txt
 
